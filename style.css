@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-family: "Concert One", cursive;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  background: #2f2325;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.title {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 10rem;
+  color: #fff;
+}
+
+.card {
+  background: #483636;
+  border: 2px solid #fff2e7;
+  border-radius: 20px;
+  display: flex;
+  color: #fff2e7;
+  height: 70rem;
+  width: 140rem;
+}
+
+.card h2 {
+  font-size: 5rem;
+}
+
+.left {
+  padding: 3.2rem 9.5rem 6.7rem 9.6rem;
+}
+
+.left h2 {
+  width: 36.1rem;
+  text-align: center;
+  margin-bottom: 4.2rem;
+}
+
+.card form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card form .input-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3.8rem;
+}
+
+.card form .input-field:last-child {
+  margin-bottom: 4.4rem;
+}
+
+.card form .input-field label {
+  font-size: 5rem;
+  margin-right: 1.8rem;
+}
+
+.card form .input-field input {
+  border-radius: 15px;
+  background: #fff2e7b3;
+  height: 8rem;
+  padding-left: 2rem;
+  border: 0;
+  color: #2f2325;
+  font-size: 5rem;
+  width: 36.1rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card form button {
+  background: #fff2e7;
+  width: 41.2rem;
+  color: #2f2325;
+  cursor: pointer;
+  border-radius: 15px;
+  border: 0;
+  font-size: 5rem;
+  line-height: 3.9rem;
+  height: 8rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card form button:hover {
+  filter: brightness(0.85);
+}
+
+.divisor {
+  width: 3px;
+  background: #fff2e7;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 3.2rem 8rem 4rem 8rem;
+}
+
+.right h2 {
+  margin-bottom: 11.1rem;
+}
+
+.right .registered {
+  overflow-y: scroll;
+  max-height: 35rem;
+  padding-right: 2rem;
+
+  scroll-behavior: smooth;
+  scrollbar-color: #97d4d9 #2f2325;
+  scrollbar-width: thin;
+}
+
+.right .registered::-webkit-scrollbar {
+  width: 14px;
+}
+
+.right .registered::-webkit-scrollbar-thumb {
+  background: #97d4d9;
+}
+
+.right .registered::-webkit-scrollbar-track {
+  background: #2f2325;
+}
+
+.right .user {
+  margin-bottom: 2.8rem;
+  font-size: 4rem;
+}
+
+.right .user .user-info {
+  line-height: 3.115rem;
+}
+
+.right .user .name,
+.right .user .age,
+.right .user .skills {
+  color: #97d4d9;
+}
+
+.right .user .colon {
+  color: #fff;
+}
+
+.right .user .age-text {
+  color: #b3dfd3;
+}
+
+.right .user .name-text,
+.right .user .skills-text {
+  color: #efc764;
+}
